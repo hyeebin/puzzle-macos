@@ -21,7 +21,7 @@ struct ContentView: View {
                 content: {
                     ForEach(0..<49) { index in
                         Circle()
-                            .fill(Color.blue)
+                            .fill(Color.orange)
                             .frame(width: 20, height: 20)
                     }
                 })
